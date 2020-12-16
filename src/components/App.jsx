@@ -36,7 +36,7 @@ class App extends React.Component{
                 placeholder={this.state.placeholder}
                 onChange={(e) => {this.handleInputChange(e)}}
                 />
-                <button onClick={() => {this.buttonClick(this.state.hasLoaded=true)}}
+                <button onClick={() => {this.buttonClick(true)}}
     >           CLICK ME
                 </button>
                 </>
@@ -49,7 +49,7 @@ class App extends React.Component{
             return(
                 <>
                 <h1>Loading...</h1>
-                <button onClick={() => {this.buttonClick(this.state.hasLoaded=true)}}
+                <button onClick={() => {this.buttonClick(true)}}
     >           CLICK ME
                 </button>
                 </>
